@@ -1,0 +1,10 @@
+M1: The enigma machine is a cipher device developed and used in the early- to mid-twenty century to protect commercial, diplomatic, and military communication.
+M2: It was employed extensively by nazi germany during second world war
+M3:  The Enigma machine was considered so secure that it was used to encipher the most top-secret messages
+M4: The enigma has an electromechanical rotor mechanism that scrambles the twenty six letters of the alphabet
+M5: In typical use, one person enters text on the enigma's keyboard and another person writes down which of the twenty six lights above the keyboard illuminated at each key press
+M6: If plain text is entered, the illuminated letters are the ciphertext.
+M7: Entering ciphertext transforms it back into readable plaintext.
+M8: The security of the system depends on machine settings that were generally changed daily, based on secret key lists distributed in advance, and on other settings that were changed for each message
+M9: The receiving station would have to know and use the exact settings employed by the transmitting station to successfully decrypt a message.
+M10: Like other rotor machines, the Enigma machine is a combination of mechanical and electrical subsystems
