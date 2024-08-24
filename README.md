@@ -9,18 +9,39 @@ ChiperCrack is a cryptographic analysis tool designed to decode encrypted messag
 - **Crib Dragging:** Automate the process of crib dragging, allowing users to input expected plaintexts and find potential matches in encrypted messages.
 - **Command-Line Interface:** Simple, interactive command-line interface for entering expressions and analyzing encrypted messages.
 
-# Example 1: XOR two ASCII strings with a key
-m1 = "hi how are you? dog.\t2"
-m2 = "this is great secret!"
-key = "abcdefg"
-mc1 = XOR_2_ASCII(m1, key)
-mc2 = XOR_2_ASCII(m2, key)
-print(mc1, mc2)
+# ExampleL decoding those 10 messages using crib dragging technic
+Message #1:
+d59fa7b9c7d208c3c7e2369b757acb831613a51cb182f536040238ac6f3afd0aee0d9186fc829aa61b66a514adfceb73a969ed05bf08ce124df6a15acd2f6fb00241df7b9ba9165cc1da6a8e1e56eefc720e7269285a55282f4a9f1c27cff26f68263fd46ccf35f59f39ed649eaeb94d00393d406e638817ad46d2b04e6d9820ceaaa89a96bb9b6f28993933203e74f24115ff37427274ae2408de
+Message #2:
+c883e2eec3cf41c1c7f37a996d7cc7ca1d0ef110acd1fd60020731e46831fd00ea0191c5fec78cae0c6db05bb9ecfd3aa660a956af18c41809bfb815cb2b6eb01041df3bc2ed5808cf966bc71809fbe574086363285656662f57884560deef22793a70cd60c028a19d24f927
+Message #3:
+d59fa7b9c7d208c3c7e2369b757acb831613a502a3d1b47508053bad6e2daf0bef5b8b8ab9d19ba01871ac5ba9f1ee27e86efd05bd1ad85618ecaa1e993365b0024ece7e92ec535a8e8e6f825a16f5f86340727f78144323384d881127d6f83c6b3537c57a
+Message #4:
+d59fa7b9c7d208c3c7e2369e756a838b1656e019a7c1e06408062da76229b307e81a94c5ebcd8aac1f23a41ebef1ee3da174e405be13ca024decac08d82a68fc02538d638ae1165cd99f6993035be9e26f406a757c4d5534281f820327cff52a38353cd061cd23b088
+Message #5:
+c899e2eddbcc08c7cbef3683677c8fca1718e055b2c7e665080568a1643cb81cf85b8c80e1d6deac0323bd13b8b9ea3da160e444ed088b1d08e6ad15d8356eb0064ec93783ea595cc69f75c70a1ee8f8780e26677a504423281f890a70d5bd38703d33c829c327f5883ee5298fabbf4a152c31136372d817ab4cdbb0542ed562c0b2a99a8fba9226379d32286f3c69fb0c09fd32547e69a92a12957371e8c2251c8338dfdbeed8e0a457c0f2d0d9
+Message #6:
+c891e2e9cedd08ca8af7738e6039ca995813eb01a7d0f1724b4b3cac6f68b402e70e958cf7c38aa60923a51ea9edea21bb27e857af5bdf1e08bfac13c92f6fe21345d563cc
+Message #7:
+c499b6fcd0d50fc38ae07f867c7cd19e1d0ef155b6d0f578140d27b6673bfd07ff5b9a84fac9deaa0377a65baffcee37a965e540ea0bc71704f1bb1fc13324b01348c83790eb4247dcda6a821913fbe57e136b306b5151283c5a9e4573d3f86f7d3835c37dde28b69d3aa06a94b2b4410221780f6479d819a75fc4a142609474c7a1ecd19eab84263d962f6a74357ebf4009f636556020b02212983734e8d56d59893ece8bf7d8eaf7
+Message #8:
+d59fa7b9d1d902d1d8ea628f3476c5ca0c1ee055b1dbe762020668a06f38b800ef08d88af78293a20e6ba015b8b9fc36bc73e04bad088b0205febb5ace2278f54747c87987f65744c2832784121af4ec7204267469505c3f771f8f0474def96f773a70d36ccf33b08876eb6c82fcb64d122162406e638b0fb042d1b1536bd020c6aaecdb9fa496683f9d676a61337fbf430eb131557b65b56b15956325e0d8620ac22fdf9af19deee155d7b7c0c2bdc2d99b420828cd1953781fc8a1dca225b6b89d0aab
+Message #9:
+d59fa7b9d0d902c1c3f57f987339d09e1902ec1aac82e37912072ce46229ab0bab0f97c5f2cc91b44d62a71ffdecfc36e873e140ea1ed3170eebef09dc337ef90947de3787e94644c18362835a19e3ab630863307c4b51282852841173d2f328382724c17dc52ebbdc22ef2988a9b947042662067f669402e24fd6a75577c4748fa5ecd79ea184673b9d65
+Message #10:
+cd9ea9fc82d315cccff136847b6dcc98581be416aacbfa73144768b0622dfd2be5129f88f88293a20e6ba015b8b9e620e866a946a516c91f03febb13d6292aff0100c07281ec5746c799668b5a1af4ef37056a756b4d422f385e814574ceff3c612724c564df
 
-# Example 2: Convert a hexadecimal message back to ASCII
-hex_msg = "0b434c1147"
-ascii_msg = convert_to_ascii(hex_msg)
-print(ascii_msg)
+# Solution: 
+M1: The enigma machine is a cipher device developed and used in the early- to mid-twenty century to protect commercial, diplomatic, and military communication.
+M2: It was employed extensively by nazi germany during second world war
+M3:  The Enigma machine was considered so secure that it was used to encipher the most top-secret messages
+M4: The enigma has an electromechanical rotor mechanism that scrambles the twenty six letters of the alphabet
+M5: In typical use, one person enters text on the enigma's keyboard and another person writes down which of the twenty six lights above the keyboard illuminated at each key press
+M6: If plain text is entered, the illuminated letters are the ciphertext.
+M7: Entering ciphertext transforms it back into readable plaintext.
+M8: The security of the system depends on machine settings that were generally changed daily, based on secret key lists distributed in advance, and on other settings that were changed for each message
+M9: The receiving station would have to know and use the exact settings employed by the transmitting station to successfully decrypt a message.
+M10: Like other rotor machines, the Enigma machine is a combination of mechanical and electrical subsystems
 
 
 
