@@ -1,6 +1,7 @@
 # ChiperCrack
 
 ChiperCrack is a cryptographic analysis tool designed to decode encrypted messages using XOR operations and known plaintext attacks. The tool takes hexadecimal-encoded messages and performs XOR-based decryption, allowing users to uncover hidden plaintexts.
+What special about this tool is the ability to use Crib Dragging in order to gradually reveal the secret code using user's input and direction.
 
 ## Features
 
